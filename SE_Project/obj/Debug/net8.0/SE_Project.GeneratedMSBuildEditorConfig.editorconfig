@@ -1,0 +1,99 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SE_Project
+build_property.RootNamespace = SE_Project
+build_property.ProjectDir = D:\Junior Year - 6th Sem\Software Engineering\Project\Razor Pages\SE_Project\SE_Project\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Junior Year - 6th Sem\Software Engineering\Project\Razor Pages\SE_Project\SE_Project
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Junior Year - 6th Sem/Software Engineering/Project/Razor Pages/SE_Project/SE_Project/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Junior Year - 6th Sem/Software Engineering/Project/Razor Pages/SE_Project/SE_Project/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Junior Year - 6th Sem/Software Engineering/Project/Razor Pages/SE_Project/SE_Project/Pages/eventReg.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZXZlbnRSZWcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Junior Year - 6th Sem/Software Engineering/Project/Razor Pages/SE_Project/SE_Project/Pages/feedback.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZmVlZGJhY2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Junior Year - 6th Sem/Software Engineering/Project/Razor Pages/SE_Project/SE_Project/Pages/finance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZmluYW5jZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Junior Year - 6th Sem/Software Engineering/Project/Razor Pages/SE_Project/SE_Project/Pages/homepage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaG9tZXBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Junior Year - 6th Sem/Software Engineering/Project/Razor Pages/SE_Project/SE_Project/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Junior Year - 6th Sem/Software Engineering/Project/Razor Pages/SE_Project/SE_Project/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Junior Year - 6th Sem/Software Engineering/Project/Razor Pages/SE_Project/SE_Project/Pages/members.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbWVtYmVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Junior Year - 6th Sem/Software Engineering/Project/Razor Pages/SE_Project/SE_Project/Pages/NewSociety.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3U29jaWV0eS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Junior Year - 6th Sem/Software Engineering/Project/Razor Pages/SE_Project/SE_Project/Pages/organizeEvents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcb3JnYW5pemVFdmVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Junior Year - 6th Sem/Software Engineering/Project/Razor Pages/SE_Project/SE_Project/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Junior Year - 6th Sem/Software Engineering/Project/Razor Pages/SE_Project/SE_Project/Pages/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Junior Year - 6th Sem/Software Engineering/Project/Razor Pages/SE_Project/SE_Project/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Junior Year - 6th Sem/Software Engineering/Project/Razor Pages/SE_Project/SE_Project/Pages/societyAnnouncements.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc29jaWV0eUFubm91bmNlbWVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Junior Year - 6th Sem/Software Engineering/Project/Razor Pages/SE_Project/SE_Project/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Junior Year - 6th Sem/Software Engineering/Project/Razor Pages/SE_Project/SE_Project/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Junior Year - 6th Sem/Software Engineering/Project/Razor Pages/SE_Project/SE_Project/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-m8cxsg0jdp

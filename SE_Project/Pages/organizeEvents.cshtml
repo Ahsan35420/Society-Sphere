@@ -1,0 +1,135 @@
+﻿@page
+@model SE_Project.Pages.organizeEventsModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Organizer Page</title>
+    <style>
+        body {
+            background-color: black;
+            color: black;
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #5688A8;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="date"],
+        input[type="time"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            background-color: #D3D7DA;
+            color: #333;
+        }
+
+        textarea {
+            resize: vertical;
+            height: 100px;
+        }
+
+        .btn {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+            .btn:hover {
+                background-color: #0056b3;
+            }
+
+        .event-list {
+            margin-top: 30px;
+        }
+
+        .event-card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+            .event-card h3 {
+                color: #333;
+                margin-top: 0;
+            }
+
+            .event-card p {
+                color: #666;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Event Organizer</h1>
+        <form>
+            <div class="form-group">
+                <label for="eventName">Event Name:</label>
+                <input type="text" id="eventName" name="eventName" required>
+            </div>
+            <div class="form-group">
+                <label for="eventDate">Event Date:</label>
+                <input type="date" id="eventDate" name="eventDate" required>
+            </div>
+            <div class="form-group">
+                <label for="eventTime">Event Time:</label>
+                <input type="time" id="eventTime" name="eventTime" required>
+            </div>
+            <div class="form-group">
+                <label for="eventLocation">Event Location:</label>
+                <input type="text" id="eventLocation" name="eventLocation" required>
+            </div>
+            <div class="form-group">
+                <label for="eventDescription">Event Description:</label>
+                <textarea id="eventDescription" name="eventDescription" required></textarea>
+            </div>
+            <button type="submit" class="btn">Create Event</button>
+        </form>
+
+        <div class="event-list">
+            <div class="event-card">
+                <h3>Event Name</h3>
+                <p>Date: DD/MM/YYYY</p>
+                <p>Time: HH:MM AM/PM</p>
+                <p>Location: Event Location</p>
+                <p>Description: Event Description</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
