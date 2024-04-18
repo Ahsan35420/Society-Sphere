@@ -1,0 +1,126 @@
+﻿@page
+@model SE_Project.Pages.financeModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance Management</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: #5688A8;
+            font-family: "Times New Roman", Times, serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+        }
+
+        .finance-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .finance-form input[type="text"],
+        .finance-form input[type="number"],
+        .finance-form textarea {
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #5688A8;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .finance-form textarea {
+            height: 200px;
+            resize: vertical;
+        }
+
+        .finance-form button {
+            background-color: #5688A8;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .finance-form button:hover {
+            background-color: #306080;
+        }
+
+        .finance-report {
+            margin-top: 50px;
+            border: 1px solid #5688A8;
+            border-radius: 5px;
+            padding: 20px;
+        }
+
+        .finance-report h2 {
+            margin-bottom: 20px;
+        }
+
+        .finance-report table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .finance-report th, .finance-report td {
+            padding: 8px;
+            border-bottom: 1px solid #5688A8;
+        }
+
+        .finance-report th {
+            background-color: #5688A8;
+            color: #ffffff;
+        }
+
+        .finance-report tr:last-child td {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Finance Management</h1>
+        
+        <div class="finance-form">
+            <input type="text" placeholder="Transaction Description" required>
+            <input type="number" placeholder="Amount" required>
+            <textarea placeholder="Additional Notes"></textarea>
+            <button type="submit">Add Transaction</button>
+        </div>
+
+        <div class="finance-report">
+            <h2>Monthly Financial Report</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Description</th>
+                        <th>Amount</th>
+                        <th>Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+﻿@page
+@model SE_Project.Pages.ViewMyFeedbackModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View My Feedback</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        .feedback-list {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+        }
+
+        .feedback-item {
+            text-align: left;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+            .feedback-item h3 {
+                margin-top: 0;
+            }
+
+            .feedback-item p {
+                margin-bottom: 5px;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>View My Feedback</h1>
+        <div class="feedback-list">
+            <div class="feedback-item">
+                <h3>Feedback Title 1</h3>
+                <p>Date: DD/MM/YYYY</p>
+                <p>Content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="feedback-item">
+                <h3>Feedback Title 2</h3>
+                <p>Date: DD/MM/YYYY</p>
+                <p>Content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="feedback-item">
+                <h3>Feedback Title 3</h3>
+                <p>Date: DD/MM/YYYY</p>
+                <p>Content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <!-- Add more feedback items as needed -->
+        </div>
+    </div>
+</body>
+</html>

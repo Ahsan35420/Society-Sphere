@@ -1,0 +1,146 @@
+﻿@page
+@model SE_Project.Pages.NewSocietyModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Society</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Times New Roman, serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            margin-top: 40px;
+            width: 90%;
+            max-width: 800px;
+        }
+
+        .left-column,
+        .right-column {
+            flex: 1;
+        }
+
+        .left-column {
+            margin-right: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 15px;
+            margin-top: 15px;
+        }
+
+        .dropdown {
+            margin-bottom: 10px;
+        }
+
+            .dropdown select{
+                width: 100%;
+                padding: 10px;
+                border: none;
+                border-radius: 5px;
+                font-size: 16px;
+                margin-bottom: 10px;
+            }
+            .form-group input {
+                width: 100%;
+                padding: 10px;
+                border: none;
+                border-radius: 5px;
+                font-size: 16px;
+                margin-bottom: 20px;
+            }
+
+        .button-links button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+
+        .dropdown select {
+            height: 40px;
+        }
+
+        .button-links button {
+            background-color: #94B7CE;
+            color: black;
+            text-align: center;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+            .button-links button:last-child {
+                margin-bottom: 0;
+            }
+    </style>
+</head>
+<body>
+    <h1>Create New Society</h1>
+    <div class="container">
+        <div class="left-column">
+
+            <div class="dropdown">
+                <label for="societyType">Society Name:</label>
+                <select>
+                    <option value="campus">Campus Level</option>
+                    <option value="department">Department Level</option>
+                    <option value="special">Special Societies</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="mentor">Mentor Name:</label>
+                <input type="text" id="mentor" name="mentor">
+            </div>
+            <div class="button-links">
+                <button onclick="location.href='/contact'">Contact Info</button>
+                <button onclick="location.href='/members'">Members</button>
+                <button onclick="location.href='/plansSociety'">Tentative Plans</button>
+
+            </div>
+        </div>
+
+        <div class="right-column">
+            <div class="form-group">
+                <label for="societyName">Society Name:</label>
+                <input type="text" id="societyName" name="societyName">
+            </div>
+            <div class="form-group">
+                <label for="societyIntro">Society Introduction:</label>
+                <input type="text" id="societyIntro" name="societyIntro">
+            </div>
+            <div class="form-group">
+                <label for="president">President:</label>
+                <input type="text" id="president" name="president">
+            </div>
+            <div class="form-group">
+                <label for="gpa">GPA:</label>
+                <input type="text" id="gpa" name="gpa">
+            </div>
+            <div class="form-group">
+                <label for="semester">Semester:</label>
+                <input type="text" id="semester" name="semester">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
