@@ -1,0 +1,72 @@
+﻿@page
+@model SE_Project.Pages.viewLeaderFeedbackModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Feedback</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 30px;
+        }
+
+        .feedback-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .feedback-item {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+            .feedback-item h3 {
+                margin-top: 0;
+            }
+
+            .feedback-item p {
+                margin-bottom: 5px;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>View Feedback</h1>
+        <ul class="feedback-list">
+            <li class="feedback-item">
+                <h3>Feedback Title</h3>
+                <p><strong>Submitted By:</strong> John Doe</p>
+                <p><strong>Date:</strong> January 1, 2024</p>
+                <p><strong>Feedback:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </li>
+            <li class="feedback-item">
+                <h3>Feedback Title</h3>
+                <p><strong>Submitted By:</strong> Jane Smith</p>
+                <p><strong>Date:</strong> February 15, 2024</p>
+                <p><strong>Feedback:</strong> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </li>
+            <!-- Add more feedback items as needed -->
+        </ul>
+    </div>
+</body>
+</html>
