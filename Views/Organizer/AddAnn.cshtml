@@ -1,0 +1,130 @@
+﻿@model SocietySphere.Models.ViewModel.TempAnncs
+@{
+    ViewData["Title"] = "Announcement";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Society Announcements</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: #5688A8;
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+        }
+
+        .dropdown {
+            margin-bottom: 10px;
+        }
+
+            .dropdown select {
+                width: 100%;
+                padding: 10px;
+                border: none;
+                border-radius: 5px;
+                font-size: 16px;
+                margin-bottom: 10px;
+            }
+
+        .announcement-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+            .announcement-form textarea {
+                width: 90%;
+                height: 300px;
+                padding: 10px;
+                margin-bottom: 20px;
+                border: 1px solid #5688A8;
+                border-radius: 5px;
+                resize: vertical;
+            }
+
+            .announcement-form button {
+                background-color: #5688A8;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 5px;
+                font-size: 16px;
+                cursor: pointer;
+                transition: background-color 0.3s;
+            }
+
+        .Society {
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            margin-top: 20px;
+        }
+
+        .announcement-form button:hover {
+            background-color: #306080;
+        }
+    </style>
+    <script src="https://cdn.tiny.cloud/1/0sw6q3moikoja7eux6u64j2uryrvn5ge4yl4se6djdrywn80/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
+
+    <script>
+        tinymce.init({
+            selector: 'textarea',
+            plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount checklist mediaembed casechange export formatpainter pageembed linkchecker a11ychecker tinymcespellchecker permanentpen powerpaste advtable advcode editimage advtemplate ai mentions tinycomments tableofcontents footnotes mergetags autocorrect typography inlinecss markdown',
+            toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table mergetags | addcomment showcomments | spellcheckdialog a11ycheck typography | align lineheight | checklist numlist bullist indent outdent | emoticons charmap | removeformat',
+            tinycomments_mode: 'embedded',
+            tinycomments_author: 'Author name',
+            mergetags_list: [
+                { value: 'First.Name', title: 'First Name' },
+                { value: 'Email', title: 'Email' },
+            ],
+            init_instance_callback: function (editor) {
+                editor.on('Change', function (e) {
+                    editor.save();
+                    var content = editor.getContent({ format: 'text' });
+                    document.getElementById('content').value = content;
+                });
+            },
+            ai_request: (request, respondWith) => respondWith.string(() => Promise.reject("See docs to implement AI Assistant")),
+        });
+    </script>
+
+
+
+
+    <!-- Place the following <script> and <textarea> tags your HTML's <body> -->
+
+</head>
+<body>
+    <form method="post" action="@Url.Action("Announcement", "Leader")">
+        <div class="container">
+            <h1>Society Announcements</h1>
+            <div class="announcement-form">
+
+                <!-- Textarea for announcement content -->
+                <textarea id="content" name="Content" asp-for="Content" required>Write Here</textarea>
+                <!-- Submit button -->
+                <button class="btn" type="submit">Post Announcement</button>
+            </div>
+        </div>
+    </form>
+
+
+
+</body>
+</html>

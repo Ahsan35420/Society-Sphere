@@ -1,0 +1,92 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Member</title>
+    <style>
+        body {
+            background-color: black;
+            color: black;
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 50px auto 50px;
+            padding: 20px;
+            background-color: #5688A8;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            background-color: #D3D7DA;
+            color: #333;
+        }
+
+        .btn {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+            .btn:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Add Member</h1>
+        <form>
+            <div class="form-group">
+                <label for="memberName">Member Name:</label>
+                <input type="text" id="memberName" name="memberName" required>
+            </div>
+            <div class="form-group">
+                <label for="memberRole">Member Role:</label>
+                <select id="memberRole" name="memberRole">
+                    <option value="president">President</option>
+                    <option value="vice-president">Vice President</option>
+                    <option value="secretary">Secretary</option>
+                    <option value="treasurer">Treasurer</option>
+                    <option value="member">Member</option>
+                </select>
+            </div>
+            <button type="submit" class="btn">Add Member</button>
+        </form>
+    </div>
+</body>
+</html>

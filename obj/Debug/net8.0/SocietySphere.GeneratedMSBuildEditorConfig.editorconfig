@@ -1,0 +1,155 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SocietySphere
+build_property.RootNamespace = SocietySphere
+build_property.ProjectDir = C:\Users\Hp\Desktop\SocietySphere\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Hp\Desktop\SocietySphere
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Hp/Desktop/SocietySphere/Views/Admin/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ29udGFjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hp/Desktop/SocietySphere/Views/Admin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hp/Desktop/SocietySphere/Views/Admin/Feedback.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRmVlZGJhY2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hp/Desktop/SocietySphere/Views/Admin/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSG9tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hp/Desktop/SocietySphere/Views/Admin/Members.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWVtYmVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hp/Desktop/SocietySphere/Views/Admin/Plans.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGxhbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hp/Desktop/SocietySphere/Views/Guest/AllSocieties.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3RcQWxsU29jaWV0aWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hp/Desktop/SocietySphere/Views/Guest/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3RcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hp/Desktop/SocietySphere/Views/Guest/RequestForJoin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3RcUmVxdWVzdEZvckpvaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hp/Desktop/SocietySphere/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hp/Desktop/SocietySphere/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hp/Desktop/SocietySphere/Views/Leader/AddMember.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhZGVyXEFkZE1lbWJlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hp/Desktop/SocietySphere/Views/Leader/AddOrganizer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhZGVyXEFkZE9yZ2FuaXplci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hp/Desktop/SocietySphere/Views/Leader/Announcement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhZGVyXEFubm91bmNlbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hp/Desktop/SocietySphere/Views/Leader/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhZGVyXEhvbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hp/Desktop/SocietySphere/Views/Leader/RemoveMember.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhZGVyXFJlbW92ZU1lbWJlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hp/Desktop/SocietySphere/Views/Leader/ViewAnnouncement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhZGVyXFZpZXdBbm5vdW5jZW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hp/Desktop/SocietySphere/Views/Leader/ViewFeed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhZGVyXFZpZXdGZWVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hp/Desktop/SocietySphere/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hp/Desktop/SocietySphere/Views/Member/FeedBack.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXEZlZWRCYWNrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hp/Desktop/SocietySphere/Views/Member/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXEhvbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hp/Desktop/SocietySphere/Views/Member/JoinS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXEpvaW5TLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hp/Desktop/SocietySphere/Views/Member/Participate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXFBhcnRpY2lwYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hp/Desktop/SocietySphere/Views/Member/ViewAnnouncement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXFZpZXdBbm5vdW5jZW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hp/Desktop/SocietySphere/Views/Member/ViewFeed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXFZpZXdGZWVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hp/Desktop/SocietySphere/Views/Organizer/AddAnn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemVyXEFkZEFubi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hp/Desktop/SocietySphere/Views/Organizer/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemVyXEhvbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hp/Desktop/SocietySphere/Views/Organizer/Organize.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemVyXE9yZ2FuaXplLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hp/Desktop/SocietySphere/Views/Registration/Reg.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmF0aW9uXFJlZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hp/Desktop/SocietySphere/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hp/Desktop/SocietySphere/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hp/Desktop/SocietySphere/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hp/Desktop/SocietySphere/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hp/Desktop/SocietySphere/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-q09jdorivv

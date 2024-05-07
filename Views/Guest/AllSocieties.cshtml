@@ -1,0 +1,89 @@
+﻿@model List<SocietySphere.Models.ViewModel.SocietyViewModel>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Society Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: grey;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .society-details {
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #f0f0f0;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .label {
+            font-weight: bold;
+            color: black;
+         
+            display: block;
+
+        }
+
+        .value {
+            color: #333;
+            font-size: 18px;
+          
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+            .btn:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><b>All Societies</b></h1>
+        @foreach (var society in Model)
+        {
+            <div class="society-details">
+                <span class="label"><b>Society Type:</b></span> <span class="value">@society.SocietyType</span><br>
+                <span class="label"><b>Society Name:</b></span> <span class="value">@society.SocietyName</span><br>
+                <span class="label"><b>Society Introduction:</b></span> <span class="value">@society.SocietyIntro</span><br>
+                <span class="label"><b>President:</b></span> <span class="value">@society.President</span><br>
+                <span class="label"><b>Mentor:</b></span> <span class="value">@society.Mentor</span><br>
+            </div>
+        }
+    </div>
+</body>
+</html>

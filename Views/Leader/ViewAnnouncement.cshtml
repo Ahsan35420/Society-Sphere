@@ -1,0 +1,103 @@
+﻿@model List<SocietySphere.Models.ViewModel.Announcement>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Announcements</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            position: relative;
+            overflow: hidden;
+        }
+
+
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .announcement {
+            background-color: #333;
+            border-radius: 8px;
+            padding: 20px;
+            width:700px;
+            margin-bottom: 20px;
+            
+        }
+
+        .society {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .usertype {
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+
+        .announcement-text {
+            line-height: 1.5;
+        }
+
+        /* Styling for the heading */
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            margin-top: 500px; /* Adjust this value to create space */
+        }
+
+        /* Adding scroll if announcements overflow */
+        body {
+            overflow-y: auto;
+        }
+
+        /* Styling for numbering the announcements */
+        .announcement:nth-child(n) {
+            counter-increment: announcement;
+        }
+
+        .announcement::before {
+            content: "Announcement " counter(announcement) ": ";
+            font-weight: bold;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Society Announcements</h1>
+        @if (Model != null && Model.Any())
+        {
+            var announcementNumber = 1;
+            foreach (var announcement in Model)
+            {
+                <div class="announcement">
+                    <span class="announcement-number"></span>
+                    <div class="society">Society Name: @announcement.SocietyName</div>
+                    <div class="usertype">Posted By: @announcement.UserType</div>
+                    <div class="announcement-text">Content: @Html.Raw(announcement.Content)</div>
+                </div>
+                announcementNumber++;
+            }
+        }
+        else
+        {
+            <p>No announcements available.</p>
+        }
+    </div>
+    
+</body>
+</html>

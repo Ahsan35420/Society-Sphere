@@ -1,0 +1,109 @@
+﻿@model SocietySphere.Models.ViewModel.Login
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Society Sphere</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: "Times New Roman", Times, serif;
+        }
+
+        .login-container {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+            .form-group input {
+                width: 300px;
+                padding: 10px;
+                font-size: 16px;
+                border: none;
+                border-radius: 5px;
+            }
+
+        .btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            color: white;
+        }
+
+            .btn-primary:hover {
+                background-color: #0056b3;
+            }
+
+        .btn-secondary {
+            background-color: #6c757d;
+            color: white;
+        }
+
+            .btn-secondary:hover {
+                background-color: #5a6268;
+            }
+
+        .logo-container {
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+
+        .error-message {
+            color: red;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo-container">
+        <img src="~/css/Logo_1.png" alt="Society Sphere Logo">
+    </div>
+    <div class="login-container">
+        <h1>Login to Society Sphere</h1>
+        <form asp-controller="Login" asp-action="Login" method="post" onsubmit="return validatePassword()">
+            <div class="form-group">
+                <input type="text" asp-for="Username" placeholder="Username" required>
+            </div>
+            <div class="form-group">
+                <input type="password" id="password" asp-for="Password" placeholder="Password" required>
+                <div class="error-message" id="passwordError"></div>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Login</button>
+                <a button class="button" asp-controller="Home" asp-action="Index">Go to Home Page</a>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        function validatePassword() {
+            var password = document.getElementById('password').value;
+            var passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$!%*?&])[A-Za-z\d$!%*?&]{8,12}$/;
+            if (!passwordRegex.test(password)) {
+                document.getElementById('passwordError').innerText = "Password must be 8-12 characters long and contain at least one lowercase letter, one uppercase letter, one number, and one special character.";
+                return false;
+            } else {
+                document.getElementById('passwordError').innerText = "";
+                return true;
+            }
+        }
+    </script>
+</body>
+</html>

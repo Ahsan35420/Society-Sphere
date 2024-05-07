@@ -1,0 +1,74 @@
+﻿@model SocietySphere.Models.ViewModel.TempFeedback
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: #5688A8;
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+        }
+
+        .feedback-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+            .feedback-form textarea {
+                width: 90%;
+                padding: 20px;
+                margin-bottom: 20px;
+                border: 1px solid #5688A8;
+                border-radius: 5px;
+                box-sizing: border-box;
+                resize: vertical;
+            }
+
+            .feedback-form button {
+                background-color: #5688A8;
+                color: #ffffff;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 5px;
+                font-size: 16px;
+                cursor: pointer;
+                transition: background-color 0.3s;
+            }
+
+                .feedback-form button:hover {
+                    background-color: #306080;
+                }
+    </style>
+</head>
+<body>
+    <form method="post">
+        <div class="container">
+
+        <h1>Feedback Form</h1>
+
+        <div class="feedback-form">
+            <textarea asp-for="Content" placeholder="Write your feedback here..." rows="8" required></textarea>
+            <button type="submit">Submit Feedback</button>
+        </div>
+    </div>
+    </form>
+
+</body>
+</html>

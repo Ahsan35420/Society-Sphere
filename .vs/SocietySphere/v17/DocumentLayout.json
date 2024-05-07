@@ -1,0 +1,689 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hp\\Desktop\\SocietySphere\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\views\\leader\\addmember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:views\\leader\\addmember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\views\\leader\\removemember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:views\\leader\\removemember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\controllers\\leadercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:controllers\\leadercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\views\\guest\\requestforjoin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:views\\guest\\requestforjoin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\views\\guest\\allsocieties.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:views\\guest\\allsocieties.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\views\\leader\\addorganizer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:views\\leader\\addorganizer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\views\\leader\\viewfeed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:views\\leader\\viewfeed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\views\\leader\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:views\\leader\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\models\\viewmodel\\organizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:models\\viewmodel\\organizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\views\\leader\\announcement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:views\\leader\\announcement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\controllers\\organizercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:controllers\\organizercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\models\\viewmodel\\announcement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:models\\viewmodel\\announcement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\controllers\\guestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:controllers\\guestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\views\\organizer\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:views\\organizer\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\views\\member\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:views\\member\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\views\\organizer\\addann.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:views\\organizer\\addann.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\views\\admin\\feedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:views\\admin\\feedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\views\\member\\viewannouncement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:views\\member\\viewannouncement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\views\\leader\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:views\\leader\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\models\\viewmodel\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:models\\viewmodel\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\views\\member\\feedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:views\\member\\feedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\models\\viewmodel\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:models\\viewmodel\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\models\\viewmodel\\tempfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:models\\viewmodel\\tempfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\views\\member\\viewfeed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:views\\member\\viewfeed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\models\\viewmodel\\tempmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:models\\viewmodel\\tempmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\data\\societydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:data\\societydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\views\\leader\\viewannouncement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:views\\leader\\viewannouncement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\views\\guest\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:views\\guest\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\views\\admin\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:views\\admin\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\models\\viewmodel\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:models\\viewmodel\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\models\\viewmodel\\tempanncs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:models\\viewmodel\\tempanncs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|c:\\users\\hp\\desktop\\societysphere\\models\\viewmodel\\loggedin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3255CA11-C82E-4613-AAAE-EDDB7BBF3761}|SocietySphere.csproj|solutionrelative:models\\viewmodel\\loggedin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddOrganizer.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Leader\\AddOrganizer.cshtml",
+              "RelativeDocumentMoniker": "Views\\Leader\\AddOrganizer.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Leader\\AddOrganizer.cshtml",
+              "RelativeToolTip": "Views\\Leader\\AddOrganizer.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAswE8AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T17:54:17.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAswFgAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T19:14:59.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddMember.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Leader\\AddMember.cshtml",
+              "RelativeDocumentMoniker": "Views\\Leader\\AddMember.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Leader\\AddMember.cshtml",
+              "RelativeToolTip": "Views\\Leader\\AddMember.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAC8AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T15:09:40.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AllSocieties.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Guest\\AllSocieties.cshtml",
+              "RelativeDocumentMoniker": "Views\\Guest\\AllSocieties.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Guest\\AllSocieties.cshtml",
+              "RelativeToolTip": "Views\\Guest\\AllSocieties.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAACkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T15:06:41.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RequestForJoin.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Guest\\RequestForJoin.cshtml",
+              "RelativeDocumentMoniker": "Views\\Guest\\RequestForJoin.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Guest\\RequestForJoin.cshtml",
+              "RelativeToolTip": "Views\\Guest\\RequestForJoin.cshtml",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAswGoAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T15:06:07.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LeaderController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Controllers\\LeaderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LeaderController.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Controllers\\LeaderController.cs",
+              "RelativeToolTip": "Controllers\\LeaderController.cs",
+              "ViewState": "AQIAAOUAAAAAAAAAAAAhwL8AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T13:37:50.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RemoveMember.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Leader\\RemoveMember.cshtml",
+              "RelativeDocumentMoniker": "Views\\Leader\\RemoveMember.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Leader\\RemoveMember.cshtml",
+              "RelativeToolTip": "Views\\Leader\\RemoveMember.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAFMAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T18:35:04.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Admin\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Admin\\Create.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Create.cshtml",
+              "ViewState": "AQIAAMIAAAAAAAAAAAAswM8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-05T19:03:26.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ViewFeed.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Leader\\ViewFeed.cshtml",
+              "RelativeDocumentMoniker": "Views\\Leader\\ViewFeed.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Leader\\ViewFeed.cshtml",
+              "RelativeToolTip": "Views\\Leader\\ViewFeed.cshtml",
+              "ViewState": "AQIAADoAAAAAAAAAAAAswEsAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T17:25:18.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Leader\\Logout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Leader\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Leader\\Logout.cshtml",
+              "RelativeToolTip": "Views\\Leader\\Logout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T17:26:00.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Feedback.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Admin\\Feedback.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Feedback.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Admin\\Feedback.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Feedback.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAACEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T17:30:22.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddAnn.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Organizer\\AddAnn.cshtml",
+              "RelativeDocumentMoniker": "Views\\Organizer\\AddAnn.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Organizer\\AddAnn.cshtml",
+              "RelativeToolTip": "Views\\Organizer\\AddAnn.cshtml",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAAIIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T17:35:35.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Organizer.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Models\\ViewModel\\Organizer.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModel\\Organizer.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Models\\ViewModel\\Organizer.cs",
+              "RelativeToolTip": "Models\\ViewModel\\Organizer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T17:55:04.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ViewFeed.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Member\\ViewFeed.cshtml",
+              "RelativeDocumentMoniker": "Views\\Member\\ViewFeed.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Member\\ViewFeed.cshtml",
+              "RelativeToolTip": "Views\\Member\\ViewFeed.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAqwDsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T17:10:13.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TempFeedback.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Models\\ViewModel\\TempFeedback.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModel\\TempFeedback.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Models\\ViewModel\\TempFeedback.cs",
+              "RelativeToolTip": "Models\\ViewModel\\TempFeedback.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T16:37:33.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Feedback.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Models\\ViewModel\\Feedback.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModel\\Feedback.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Models\\ViewModel\\Feedback.cs",
+              "RelativeToolTip": "Models\\ViewModel\\Feedback.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAqwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T16:33:57.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FeedBack.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Member\\FeedBack.cshtml",
+              "RelativeDocumentMoniker": "Views\\Member\\FeedBack.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Member\\FeedBack.cshtml",
+              "RelativeToolTip": "Views\\Member\\FeedBack.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T16:32:39.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Member.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Models\\ViewModel\\Member.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModel\\Member.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Models\\ViewModel\\Member.cs",
+              "RelativeToolTip": "Models\\ViewModel\\Member.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T15:12:15.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TempMember.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Models\\ViewModel\\TempMember.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModel\\TempMember.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Models\\ViewModel\\TempMember.cs",
+              "RelativeToolTip": "Models\\ViewModel\\TempMember.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T15:11:01.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Guest\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Guest\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Guest\\Index.cshtml",
+              "RelativeToolTip": "Views\\Guest\\Index.cshtml",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAAAJMAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T15:04:55.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GuestController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Controllers\\GuestController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GuestController.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Controllers\\GuestController.cs",
+              "RelativeToolTip": "Controllers\\GuestController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAiwB0AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T15:03:41.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADEAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T15:01:34.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Organizer\\Home.cshtml",
+              "RelativeDocumentMoniker": "Views\\Organizer\\Home.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Organizer\\Home.cshtml",
+              "RelativeToolTip": "Views\\Organizer\\Home.cshtml",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAGIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T14:49:22.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ViewAnnouncement.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Member\\ViewAnnouncement.cshtml",
+              "RelativeDocumentMoniker": "Views\\Member\\ViewAnnouncement.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Member\\ViewAnnouncement.cshtml",
+              "RelativeToolTip": "Views\\Member\\ViewAnnouncement.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAACsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T14:37:54.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MemberController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Controllers\\MemberController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MemberController.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Controllers\\MemberController.cs",
+              "RelativeToolTip": "Controllers\\MemberController.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAAAHUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T14:35:49.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Member\\Home.cshtml",
+              "RelativeDocumentMoniker": "Views\\Member\\Home.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Member\\Home.cshtml",
+              "RelativeToolTip": "Views\\Member\\Home.cshtml",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAqwGwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T14:24:37.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "TempAnncs.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Models\\ViewModel\\TempAnncs.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModel\\TempAnncs.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Models\\ViewModel\\TempAnncs.cs",
+              "RelativeToolTip": "Models\\ViewModel\\TempAnncs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T13:51:47.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Leader\\Home.cshtml",
+              "RelativeDocumentMoniker": "Views\\Leader\\Home.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Leader\\Home.cshtml",
+              "RelativeToolTip": "Views\\Leader\\Home.cshtml",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAqwJgAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-06T21:14:01.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T21:10:55.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAkwEwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T20:47:26.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SocietyDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Data\\SocietyDBContext.cs",
+              "RelativeDocumentMoniker": "Data\\SocietyDBContext.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Data\\SocietyDBContext.cs",
+              "RelativeToolTip": "Data\\SocietyDBContext.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAiwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T20:43:45.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "Views\\Login\\Login.cshtml",
+              "ViewState": "AQIAAEsAAAAAAAAAAADwv1QAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-06T20:41:43.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Loggedin.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Models\\ViewModel\\Loggedin.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModel\\Loggedin.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Models\\ViewModel\\Loggedin.cs",
+              "RelativeToolTip": "Models\\ViewModel\\Loggedin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAmwAcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T20:34:30.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Admin\\Home.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Home.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Admin\\Home.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Home.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAGwAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-06T20:14:21.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ViewAnnouncement.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Leader\\ViewAnnouncement.cshtml",
+              "RelativeDocumentMoniker": "Views\\Leader\\ViewAnnouncement.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Leader\\ViewAnnouncement.cshtml",
+              "RelativeToolTip": "Views\\Leader\\ViewAnnouncement.cshtml",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAYwFkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-06T18:52:54.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Announcement.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Models\\ViewModel\\Announcement.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModel\\Announcement.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Models\\ViewModel\\Announcement.cs",
+              "RelativeToolTip": "Models\\ViewModel\\Announcement.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T19:53:18.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrganizerController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Controllers\\OrganizerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrganizerController.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Controllers\\OrganizerController.cs",
+              "RelativeToolTip": "Controllers\\OrganizerController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAAADAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T19:52:53.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Models\\ViewModel\\Admin.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModel\\Admin.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Models\\ViewModel\\Admin.cs",
+              "RelativeToolTip": "Models\\ViewModel\\Admin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T19:14:55.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Announcement.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Leader\\Announcement.cshtml",
+              "RelativeDocumentMoniker": "Views\\Leader\\Announcement.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\SocietySphere\\Views\\Leader\\Announcement.cshtml",
+              "RelativeToolTip": "Views\\Leader\\Announcement.cshtml",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAqwHQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-05T07:46:09.476Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
